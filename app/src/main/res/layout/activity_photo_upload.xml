@@ -13,7 +13,7 @@
 
 
     <Button
-        android:id="@+id/upload"
+        android:id="@+id/browse"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Upload File to S3"
@@ -24,7 +24,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Download File from S3"
-        android:layout_below="@+id/upload"
+        android:layout_below="@+id/browse"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:onClick="setFileToDownload"/>
